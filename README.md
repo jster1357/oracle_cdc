@@ -4,6 +4,8 @@
 *Tested on Oracle 12.2 in both docker and IaaS deployments. Amazon RDS was also tested but we were unable to get it started. 
 It is recommended that XStreams ONLY be utilized on self deployed databases, where the user has root access to the database.*
 
+*XStreams is ONLY supported on 11.2.0.4 or greater Oracle database release*
+
 Prerequisites:
 - Ensure that Goldengate Replication is enabled
 - Ensure that AutoArchiving is enabled.
